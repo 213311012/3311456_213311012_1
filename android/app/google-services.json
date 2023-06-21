@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "684908490359",
+    "project_id": "gezi-uygulamam",
+    "storage_bucket": "gezi-uygulamam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684908490359:android:10d378a94f03dc08d9e072",
+        "android_client_info": {
+          "package_name": "com.example.gezi_uygulamam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684908490359-pf80g8r9fkuqo69spidjt4ed3q6bejbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKHoinLyXVjMqxr0EzHVHcVLSWNLm-thk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684908490359-pf80g8r9fkuqo69spidjt4ed3q6bejbo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
