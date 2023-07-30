@@ -1,16 +1,31 @@
 # gezi_uygulamam
 
-A new Flutter project.
+Geliştirmiş olduğum uygulama bir gezi uygulamasıdır.Yurt dışı ve yurt içi şehirler hakkında bilgiler yer almaktadır.Şehirlerin gezilecek yerleri listelenmektedir.Bunlar hakkında bilgiler gösterilmektedir.Open Weather Map API'si ile şehirlerin anlık hava durumları gösterilmektedir. Google Haritalar API'si ile de istenilen şehir ve şehrin gezilecek yerlerinin konumlarına kolayca ulaşılabilmektedir.Şehrirlerin ünlü yemekleri hakkında bilgiler de uygulamamda mevcuttur.Aynı zamanda uygulamamın planlar bölümünde gelecek gezilerinizi tarih bilgisi ile tutabilir ve gezdiğiniz yerleri işaretleyerek kendinize bir anı defteri oluşturabilirsiniz.
 
-## Getting Started
+# Uygulamanın Barındırığı İçerikler
 
-This project is a starting point for a Flutter application.
+Şehirler hakkında bilgiler yer almaktadır.
 
-A few resources to get you started if this is your first Flutter project:
+Şehirlerin veya Gezilebilecek yerlerin Konumlarını ulaşılabilmektedir.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Şehirlerin gezilecek yerleri listelenmektedir. Bunlar hakkında bilgiler gösterilmektedir.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Şehirlerin anlık hava durumları gösterilmektedir.
+
+Şehirlerin ünlü yemekleri gösterilmektedir.
+
+Bir yapılacaklar listesi gibi geziler planlanabilir.
+
+Şehirlerle ilgili genel bir pdf dosyasına ulaşılabilmektedir.
+
+# Kullanılan Teknolojiler
+ # Firebase
+     Uygulamada yer alan giriş ve kayıt olan kişiler ; bu kişilerin mail adersleri , profil fotoğrafları, uygulamaya giriş ve çıkış bilgileri ,şifreleri ve kullanıcı isimlerinin tutulması, kayıt olan kullanıcının daha sonra kullanıcı adını güncelleyebilmesi için Firebase ve FireStore kullanılmıştır. 
+ # Hive
+     Uygulamamda oluşturduğum planlar bölümünü yerel veritabanı olan HİVE ile yaptım.	 
+# Kullanılan API Servisleri
+ # OpenWeather API
+   Her bir şehir sayfasında yer alan hava durumu bilgisi OpenWeatherAPI kullanılarak yapılmıştır. Anlık hava durumu bilgisi kullanılmaktadır.
+ # Google Haritalar API
+   Şehirlerin ve gezilecek yerlerin konumlarını gösterir.
+# Ekran Görüntüleri
